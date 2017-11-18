@@ -22,8 +22,13 @@
 
 	<div class="navbar navbar-fixed-top navbar-inverse">
 		<div class="navbar-inner">
-			<div class="container">		
-				<a class="brand" href="#">AAF</a>
+		<div class="container">	
+		<a class="brand" href="#">AAF</a>
+					<a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+		<div class="collapse nav-collapse">
+				
+
+				
 				
 				<ul class="nav pull-left">
 					<li><a href="#About">About</a></li>
@@ -36,6 +41,7 @@
 					<li><a href="#Contact">Contact</a></li>
 				</ul>
 			</div>
+			</div>
 		</div>
 	</div>		
 	<div class="hero-unit">
@@ -45,18 +51,19 @@
 			<hr/>
 			<div class="row">
 			
-			<div class="span10">
+			<div class="span9">
 			
 			<h1 class="brand">Ali Akber Faiz</h1>
 			<hr/>
 			<p class="Large">	I am a very passionate programmer and I love to code. This has made me learn new and upcoming technologies.<i>I like to make SPA (Single Page Application) websites</i>. I try to make the websites as responsive as possible. My websites follow MVC(Model-View-Controller) pattern which provides convinient option for future upgrades. And they also consume less data and give a feel of a mobile App. I have a very good grip on data structure and algorithm. I also actively participate in  every competitive  programming contest. I also have a hobby of writing blogs and answering questions  on quora.
 			</p>
-			</div>
-			<div class="span2">
-				<img src="img/mypic.jpg" class="img-polaroid">  </img>
-				<br/>
-				<br/>
-				<table class="table  table-condensed">
+			<div class="row">
+			<div class="span6"></div>
+			<div class="span3">
+			<br/>
+			<br/>
+			<br/>
+			<table class="table  table-condensed pull-right">
 			<caption>A passionate programmer</caption>
 			
 			<tbody>
@@ -71,6 +78,14 @@
 				</tr>
 			</tbody>
 		</table>
+		</div>
+		</div>
+			</div>
+			<div class="span3">
+				<img src="img/mypic.jpg" class="img-polaroid">  </img>
+				<br/>
+				<br/>
+				
 			</div>
 			</div>
 		</div>
@@ -84,12 +99,11 @@
 		<div id="Academics">
 			<br/>
 			<hr/>
+			<h1 class="brand">Academics</h1>
+			<hr/>
 			<div class="row">
 			
 			<div class="span10">
-			
-			<h1 class="brand">Academics</h1>
-			<hr/>
 			<div class="container">
 			<br/>
 		<table class="table table-striped">
@@ -144,30 +158,47 @@
 
 
 		<div id="Projects">
-			<h1> Project page under development</h1>
+		<br/>
+		<hr/>
+			<h1> Projects</h1>
+			<hr/>
+			<div class="row">
+			<div class="span4"> 
+		<div class="carousel slide" id="my-carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#my-carousel" data-slide-to="1"></li>
+				<li data-target="#my-carousel" data-slide-to="2"></li>
+			</ol>
+		
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/Scrapbook/home.jpg" alt="Demo"/>
+					<div class="carousel-caption">
+						<h4>Scrapbook</h4>
+						<p>A digital diary.</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/Scrapbook/Read..jpg" alt="Demo" />
+				</div>
+				<div class="item">
+					<img src="img/Scrapbook/Write.jpg" alt="Demo" />
+				</div>
+			</div>
+			
+			<a href="#my-carousel" class="carousel-control left" data-slide="prev">&lsaquo;</a>
+			<a href="#my-carousel" class="carousel-control right" data-slide="next">&rsaquo;</a>
+		</div>
+		</div>	
+		</div>
+		</div>
 			<br/>
 		<br/>
 		<br/>
 		<br/>
 		<br/>
 		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		</div>	
 		<div id="Skills">
 			<h1>Skills page under development</h1>
 			<br/>
@@ -214,6 +245,13 @@
 				<li><a href="https://aliakberfaiz.wordpress.com" target="_Blank"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0NDcuNjc0IDQ0Ny42NzQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ0Ny42NzQgNDQ3LjY3NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6IzAwNzY5RDsiIGQ9Ik0xMzQuMjg5LDEzOC4xNmgtMjQuNzIybDY3LjM5OSwxOTAuNTIxbDM3LjczMi0xMDcuODI1bC0yOS4yNTQtODIuNjk2SDE1OS4zNnYtMTguMTU0aDExNS41MDggICB2MTguMTU0aC0yNy4wNDlsNjcuMzk4LDE5MC41MjFsMjQuMjI3LTY5LjIzNGMzMS43ODEtODguNzAyLTI2LjA0OC0xMTYuMzMzLTI2LjA0OC0xMzYuMTI5czE2LjA0OC0zNS44NDMsMzUuODQzLTM1Ljg0MyAgIGMxLjA3MSwwLDIuMTExLDAuMDU4LDMuMTMsMC4xNTNjLTMzLjU0MS0zMS42NjMtNzguNzY4LTUxLjA4LTEyOC41MzQtNTEuMDhjLTY1LjAyNywwLTEyMi4zMDYsMzMuMTQ2LTE1NS44ODQsODMuNDU4aDY2LjMzNiAgIHYxOC4xNTRMMTM0LjI4OSwxMzguMTZMMTM0LjI4OSwxMzguMTZ6Ii8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojMDA3NjlEOyIgZD0iTTM2LjU0OCwyMjMuODM3YzAsNzEuNzA0LDQwLjMwMiwxMzMuOTg2LDk5LjQ4MywxNjUuNDU4bC04NC41Mi0yMzguOTE5ICAgQzQxLjg4MywxNzIuOTMyLDM2LjU0OCwxOTcuNzYxLDM2LjU0OCwyMjMuODM3eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6IzAwNzY5RDsiIGQ9Ik0zODYuODMzLDEzMS41NDdjMi42NzksMTUuNzc0LDEuODY4LDMzLjUwMy0yLjI0Myw1MS4zMDFoMC43NDVsLTIuODMyLDguMDkybDAsMCAgIGMtMS42NzgsNS44NDMtMy43OTEsMTEuODItNi4xOTEsMTcuNjkzbC02NC40NDQsMTgwLjU0MWM1OS4wNTctMzEuNTEsOTkuMjU2LTkzLjcyNSw5OS4yNTYtMTY1LjMzOCAgIEM0MTEuMTI0LDE5MC4yNzksNDAyLjI5LDE1OC43ODgsMzg2LjgzMywxMzEuNTQ3eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6IzAwNzY5RDsiIGQ9Ik0xNjYuMDc1LDQwMi4wMzNjMTguMTk1LDUuODk0LDM3LjYwMyw5LjA5MSw1Ny43NjIsOS4wOTFjMTkuMjI4LDAsMzcuNzc3LTIuOTAyLDU1LjIzOS04LjI4NSAgIGwtNTQuNzg0LTE1NC44NjJMMTY2LjA3NSw0MDIuMDMzeiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6IzAwNzY5RDsiIGQ9Ik0zODIuMTEzLDY1LjU2QzMzOS44MzYsMjMuMjgzLDI4My42MjUsMCwyMjMuODM2LDBTMTA3LjgzNywyMy4yODMsNjUuNTYsNjUuNTZTMCwxNjQuMDQ3LDAsMjIzLjgzNyAgIGMwLDU5Ljc4OSwyMy4yODMsMTE1Ljk5OSw2NS41NiwxNTguMjc2czk4LjQ4OCw2NS41NiwxNTguMjc3LDY1LjU2czExNS45OTktMjMuMjgzLDE1OC4yNzctNjUuNTYgICBjNDIuMjc3LTQyLjI3Nyw2NS41Ni05OC40ODgsNjUuNTYtMTU4LjI3NkM0NDcuNjczLDE2NC4wNDcsNDI0LjM5LDEwNy44MzcsMzgyLjExMyw2NS41NnogTTIyMy44MzYsNDMxLjg4MyAgIGMtMTE0LjcxNywwLTIwOC4wNDYtOTMuMzI5LTIwOC4wNDYtMjA4LjA0NlMxMDkuMTE5LDE1Ljc5LDIyMy44MzYsMTUuNzlzMjA4LjA0Niw5My4zMywyMDguMDQ2LDIwOC4wNDcgICBTMzM4LjU1NCw0MzEuODgzLDIyMy44MzYsNDMxLjg4M3oiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" height=50 width=50/></a></li>
 
 			</ul>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
 			</div>
 			<div class="span2">
 				
